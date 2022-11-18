@@ -1,0 +1,45 @@
+@media screen and (width < 480px) {
+    #medium, #large{
+        display: none;
+    }
+
+    body{
+    background-color: red;
+    font-size: 2em;
+    }
+    .parent{
+        display: grid;
+    }
+}
+
+
+@media screen and (width >= 480px) and (width < 1024px) {
+    #small, #large{
+        display: none;
+    }
+    body {
+        background-color: green;
+        font-size: 2em;   
+    }
+
+    .parent{
+        display: grid;
+    }
+}
+
+
+@media screen and (width >= 1024px) {
+    #small, #medium{
+        display: none;
+    }
+    body {
+        background-color: blue;
+        font-size: 2em;
+    }
+
+    .parent{
+        display: grid;
+    }
+}
+
+  
